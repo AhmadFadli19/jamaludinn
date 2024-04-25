@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20E8A9"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/uangbayar"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:background="#90827EFF"
+        android:text="UANG BAYAR : RP"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <TextView
+        android:id="@+id/namapelanggan"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:background="#90827EFF"
+        android:text="NAMA PEMBELI :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/namabarang"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:background="#90827EFF"
+        android:text="NAMA BARANG :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <TextView
+        android:id="@+id/jumlahbeli"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:background="#90827EFF"
+        android:text="JUMLAH BELI :"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="122dp"
+        android:layout_height="22dp"
+        android:background="#90827EFF"
+        android:text="HARGA : RP"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="399dp"
+        android:layout_height="48dp"
+        android:text="PROSES"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/totalbelanja"
+        android:layout_width="130dp"
+        android:layout_height="23dp"
+        android:text="Total Belanja"
+        android:textAlignment="center"
+        android:textColor="#7200F1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <TextView
+        android:id="@+id/uangkembali"
+        android:layout_width="128dp"
+        android:layout_height="24dp"
+        android:text="Uang Kembali"
+        android:textAlignment="center"
+        android:textColor="#7200F1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/bonus"
+        android:layout_width="128dp"
+        android:layout_height="24dp"
+        android:text="Bonus"
+        android:textAlignment="textStart"
+        android:textColor="#7200F1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="471dp" />
+
+    <TextView
+        android:id="@+id/keterangan"
+        android:layout_width="128dp"
+        android:layout_height="24dp"
+        android:text="Keterangan"
+        android:textAlignment="textStart"
+        android:textColor="#7200F1"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="504dp" />
+
+    <Button
+        android:id="@+id/tombol3"
+        android:layout_width="133dp"
+        android:layout_height="58dp"
+        android:text="Keluar"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/tombol2"
+        android:layout_width="193dp"
+        android:layout_height="54dp"
+        android:text="Reset Data"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
